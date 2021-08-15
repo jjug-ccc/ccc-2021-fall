@@ -11,7 +11,6 @@ import SEO from './components/SEO';
 
 import './i18n';
 import { useTranslation } from 'react-i18next';
-import Sponsor from './components/Sponsor';
 
 const App : React.FC = () => {
   const {t, i18n} = useTranslation(); // eslint-disable-line
