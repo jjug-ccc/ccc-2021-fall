@@ -47,11 +47,6 @@ const App : React.FC = () => {
                 <About/>
                 <h3 className="title has-text-weight-semibold is-size-3 is-size-5-mobile">{t("contentTitle.coc")}</h3>
                 <Coc />
-                <h3 className="title has-text-weight-semibold is-size-3 is-size-5-mobile">{t("contentTitle.sponsor")}</h3>
-                <h4 className='is-size-4 is-size-5-mobile'>Gold</h4>
-                <Sponsor sponsorType={'Gold'}/>
-                <h4 className='is-size-4 is-size-5-mobile'>Silver</h4>
-                <Sponsor sponsorType={'Silver'}/>
               </div>
             </div>
           </div>
