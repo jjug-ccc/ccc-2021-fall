@@ -14,6 +14,6 @@ module.exports = {
   userLocation: 'Tokyo',
   userDescription: 'Japan Java User Group',
   copyright: 'Copyright © 2007-2021 JJUG - All rights reserved.',
-  themeColor: '#0066cc',
+  themeColor: '#996600',
   backgroundColor: '#ffffff',
 }
