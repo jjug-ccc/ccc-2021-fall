@@ -11,7 +11,7 @@ export type SponsorLogoProps = {
   url: string,
 };
 
-export type SponsorType = 'Gold' | 'Silver';
+export type SponsorType = 'Session' | 'Cm' | 'Logo';
 
 const Sponsor: React.FC<SponsorProps> = ({sponsorType}) => {
   const sponsors = SPONSORS.get(sponsorType);

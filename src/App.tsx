@@ -11,6 +11,7 @@ import SEO from './components/SEO';
 
 import './i18n';
 import { useTranslation } from 'react-i18next';
+import Sponsor from './components/Sponsor';
 
 const App : React.FC = () => {
   const {t, i18n} = useTranslation(); // eslint-disable-line
@@ -46,6 +47,13 @@ const App : React.FC = () => {
                 <About/>
                 <h3 className="title has-text-weight-semibold is-size-3 is-size-5-mobile">{t("contentTitle.coc")}</h3>
                 <Coc />
+                <h3 className="title has-text-weight-semibold is-size-3 is-size-5-mobile">{t("contentTitle.sponsor")}</h3>
+                <h4 className='is-size-4 is-size-5-mobile'>SESSION</h4>
+                <Sponsor sponsorType={'Session'}/>
+                <h4 className='is-size-4 is-size-5-mobile'>CM</h4>
+                <Sponsor sponsorType={'Cm'}/>
+                  <h4 className='is-size-4 is-size-5-mobile'>LOGO</h4>
+                  <Sponsor sponsorType={'Logo'}/>
               </div>
             </div>
           </div>
