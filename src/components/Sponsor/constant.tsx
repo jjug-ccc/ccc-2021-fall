@@ -15,6 +15,7 @@ export const SPONSORS = new Map<
           { image: 'cdata.png', alt: 'CData Software Japan 合同会社', url: 'https://www.cdata.com/jp/' },
           { image: 'redhat.png', alt: 'レッドハット株式会社', url: 'https://www.redhat.com/ja/global/japan' },
           { image: 'pingcap.png', alt: 'PingCAP株式会社', url: 'https://www.pingcap.co.jp' },
+          { image: 'line.png', alt: 'LINE株式会社', url: 'https://engineering.linecorp.com/ja/' },
       ]
     ],
     [
@@ -23,6 +24,7 @@ export const SPONSORS = new Map<
           { image: 'hey.png', alt: 'ヘイ株式会社', url: 'https://hey.jp/company/' },
           { image: 'jfrog.png', alt: 'JFrog', url: 'https://jfrog.co.jp/' },
           { image: 'softbank.png', alt: 'ソフトバンク株式会社', url: 'https://recruit.softbank.jp/' },
+          { image: 'gmo_internet_group.png', alt: 'GMOインターネットグループ', url: 'https://developers.gmo.jp/' },
       ]
     ],
     [
