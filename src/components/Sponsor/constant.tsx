@@ -23,6 +23,7 @@ export const SPONSORS = new Map<
           { image: 'hey.png', alt: 'ヘイ株式会社', url: 'https://hey.jp/company/' },
           { image: 'jfrog.png', alt: 'JFrog', url: 'https://jfrog.co.jp/' },
           { image: 'softbank.png', alt: 'ソフトバンク株式会社', url: 'https://recruit.softbank.jp/' },
+          { image: 'gmo_internet_group.png', alt: 'GMOインターネットグループ', url: 'https://developers.gmo.jp/' },
       ]
     ],
     [
